@@ -20,6 +20,7 @@ Sets
 *Args
 - The special syntax *args in function definitions is used to pass a variable number of arguments to a function. It is used to pass a non-keyworded, variable-length argument list. 
 
+
 def fun(arg1, *argv):
 
     print("First argument :", arg1)
@@ -27,7 +28,7 @@ def fun(arg1, *argv):
     for arg in argv:
     
         print("Argument *argv :", arg)
-
+        
 fun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 
 //hello gone as arg1 and rest as *argv
