@@ -37,4 +37,20 @@ fun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 - The special syntax **kwargs in function definitions is used to pass a variable length argument list. We use the name kwargs with the double star **.
 - A keyword argument is where you provide a name to the variable as you pass it into the function.
 - It collects all the additional keyword arguments passed to the function and stores them in a dictionary.
+
+  def fun(**kwargs):
+  
+    for k, val in kwargs.items():
+  
+        print("%s == %s" % (k, val))
+  
+fun(s1='Geeks', s2='for', s3='Geeks')
+
+
+Module:
+- A module is a Python file that contains code (e.g., functions, classes, variables).
+- Used for organizing and reusing code across different programs.
+- You import modules using import module_name.
+- Modules have a global scope for functions and variables defined within them.
+- Cannot be instantiated.
  
