@@ -33,4 +33,8 @@ fun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 
 //hello gone as arg1 and rest as *argv
 
+**Kwargs
+- The special syntax **kwargs in function definitions is used to pass a variable length argument list. We use the name kwargs with the double star **.
+- A keyword argument is where you provide a name to the variable as you pass it into the function.
+- It collects all the additional keyword arguments passed to the function and stores them in a dictionary.
  
